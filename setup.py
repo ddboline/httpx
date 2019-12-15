@@ -53,7 +53,7 @@ setup(
     install_requires=[
         "certifi",
         "hstspreload",
-        "chardet=>3.0",
+        "chardet>=3.0",
         "h11>=0.8",
         "h2>=3.0",
         "idna>=2.0",
