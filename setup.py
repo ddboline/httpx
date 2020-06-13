@@ -58,10 +58,10 @@ setup(
         "certifi",
         "hstspreload",
         "sniffio",
-        "chardet==3.*",
-        "idna==2.*",
+        "chardet>=3.0",
+        "idna>=2.0",
         "rfc3986>=1.3,<2",
-        "httpcore==0.9.*",
+        "httpcore>=0.9",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
